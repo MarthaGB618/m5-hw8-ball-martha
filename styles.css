@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #6003C3;
+  --white: #FFFFFF;
+  --box-color-1: #FCFF00;
+  --box-color-2: #57FFC9;
+  --box-color-3: #A5FF01;
+}
+
+body, html, header, * {
+  padding: 0;
+  margin: 0;
+}
+
+
+header {
+  background-color: #6003C3;
+  display: flex;
+  justify-content: center;
+
+}
+
+h1 {
+  color: white; 
+  text-transform: uppercase;
+  font-size: 5rem;
+  text-align: center;
+  width: 15%;
+  padding: 4%, 0;
+  line-height: 5rem;
+
+}
+
+body {
+  font-family: 'Bebas Neue', Impact, sans-serif;
+}
+
+p {
+  color: #6003C3;
+  font-size: 1.5rem;
+  padding: 2%;
+  text-align: center;
+}
+.boxes {
+   display: flex;
+   justify-content: space-around;
+}
+
+.box {
+  width: 33.3%;
+  border: .5rem solid #6003C3;
+  border-radius: 10px;
+  box-shadow: 0 3% 3% 0 grey;
+  text-align: center;
+  color: #6003C3;
+  line-height: 15rem; 
+  height: 15rem;
+  font-size: 6rem;
+  margin: 8%;
+}
+
+#box-1 {
+  background-color: #FCFF00;
+}
+
+#box-2 {
+  background-color: #57FFC9;
+}
+
+#box-3 {
+  background-color: #A5FF01;
+}
