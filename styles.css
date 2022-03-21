@@ -78,12 +78,14 @@ p {
 
 /*********************************
 
-395 Media Query
+ Media Query
 ********************************/
 
-@media (min-width: 350px) (max-width: 675px) {
+@media (min-width: 350px) 
 
-  h1{
+ {
+
+  h1 {
     text-align: center;
   }
   
@@ -100,4 +102,24 @@ p {
   
   }
   
+
+  @media (min-width: 675px)  {}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+ width: 33.3%;
+ border: .5rem solid #6003C3;
+ border-radius: 10px;
+ box-shadow: 0 3% 3% 0 grey;
+ text-align: center;
+ color: #6003C3;
+ line-height: 15rem; 
+ height: 15rem;
+ font-size: 6rem;
+ margin: 8%;
+}
 }
