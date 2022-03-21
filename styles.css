@@ -69,3 +69,35 @@ p {
 #box-3 {
   background-color: #A5FF01;
 }
+
+.score {
+  color:#6003C3;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*********************************
+
+395 Media Query
+********************************/
+
+@media (min-width: 350px) (max-width: 675px) {
+
+  h1{
+    text-align: center;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20%;
+
+  }
+  .box {
+    flex: 1;
+    margin: 2rem 3rem;
+  
+  }
+  
+}
